@@ -7,9 +7,7 @@ html {
 }
 *,
 *:after,
-*:before {
-  box-sizing: inherit;
-}
+*:before { box-sizing: inherit; }
 body {
   padding: 0;
   margin: 0;
@@ -22,5 +20,36 @@ h1 {
 }
 .main {
   text-align: center;
-  padding-top: 64px;
+  padding-top: 4em;
 }
+.color-box {
+  border: 6px solid #333333;
+  border-radius: 16px;
+  width: 128px;
+  height: 128px;
+}
+  .color-box--xlarge {
+    width: 320px;
+    height: 320px;
+  }
+  .color-box--large {
+    width: 256px;
+    height: 256px;
+  }
+  .color-box--small {
+    border-width: 5px;
+    border-radius: 12px;
+    width: 64px;
+    height: 64px;
+  }
+  .color-box--xsmall {
+    border-width: 4px;
+    border-radius: 8px;
+    width: 32px;
+    height: 32px;
+  }
+  .color-box--blue:hover { background-color: #64b5f6; }
+  .color-box--red:hover { background-color: #e53935; }
+  .color-box--yellow:hover { background-color: #FFB300; }
+  .color-box--green:hover { background-color: #4CAF50; }
+  .color-box--purple:hover { background-color: #5C6BC0; }
